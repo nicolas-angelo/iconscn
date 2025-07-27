@@ -13,7 +13,7 @@ import { TagsList } from './ui/custom/tags/list'
 import { TagsItem } from './ui/custom/tags/item'
 import { toastWarning } from '@/lib/toast'
 import icons from '@/data/icon-search.json'
-import type { IconStyle } from '~/utils/get-icons'
+import type { IconStyle } from '@/types/mdi'
 
 const MUI_CDN_URL = process.env.NEXT_PUBLIC_MUI_CDN_URL
 
