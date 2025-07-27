@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "stop",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/stop.svg",
+      "target": "components/ui/mdi/two-tone/stop.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Stop = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M8 8h8v8H8z\" opacity={0.3} />\n    <path d=\"M6 18h12V6H6v12zM8 8h8v8H8V8z\" />\n  </svg>\n);\n\nexport default Stop;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "star_rate",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/star_rate.svg",
+      "target": "components/ui/mdi/two-tone/star_rate.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst StarRate = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path\n      d=\"M12.94 12 12 8.89 11.06 12H8.24l2.27 1.62-.93 3.01L12 14.79l2.42 1.84-.93-3.01L15.76 12z\"\n      opacity={0.3}\n    />\n    <path d=\"M22 10h-7.58L12 2l-2.42 8H2l6.17 4.41L5.83 22 12 17.31 18.17 22l-2.35-7.59L22 10zm-7.58 6.63L12 14.79l-2.42 1.84.93-3.01L8.24 12h2.82L12 8.89l.94 3.11h2.82l-2.27 1.62.93 3.01z\" />\n  </svg>\n);\n\nexport default StarRate;\n"
+    }
+  ]
+}

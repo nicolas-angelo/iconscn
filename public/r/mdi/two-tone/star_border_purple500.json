@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "star_border_purple500",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/star_border_purple500.svg",
+      "target": "components/ui/mdi/two-tone/star_border_purple500.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst StarBorderPurple500 = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"m12 8.89.94 3.11h2.82l-2.27 1.62.93 3.01L12 14.79l-2.42 1.84.93-3.01L8.24 12h2.82L12 8.89M12 2l-2.42 8H2l6.17 4.41L5.83 22 12 17.31 18.18 22l-2.35-7.59L22 10h-7.58L12 2z\" />\n  </svg>\n);\n\nexport default StarBorderPurple500;\n"
+    }
+  ]
+}

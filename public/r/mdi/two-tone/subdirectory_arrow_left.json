@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "subdirectory_arrow_left",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/subdirectory_arrow_left.svg",
+      "target": "components/ui/mdi/two-tone/subdirectory_arrow_left.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst SubdirectoryArrowLeft = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"m11 9 1.42 1.42L8.83 14H18V4h2v12H8.83l3.59 3.58L11 21l-6-6 6-6z\" />\n  </svg>\n);\n\nexport default SubdirectoryArrowLeft;\n"
+    }
+  ]
+}

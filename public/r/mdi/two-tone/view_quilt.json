@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "view_quilt",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/view_quilt.svg",
+      "target": "components/ui/mdi/two-tone/view_quilt.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ViewQuilt = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path\n      d=\"M8.33 17H5V7h3.33v10zm5.34 0h-3.33v-4h3.33v4zM19 17h-3.33v-4H19v4zm0-6h-8.67V7H19v4z\"\n      opacity={0.3}\n    />\n    <path d=\"M3 5v14h18V5H3zm5.33 12H5V7h3.33v10zm5.34 0h-3.33v-4h3.33v4zM19 17h-3.33v-4H19v4zm0-6h-8.67V7H19v4z\" />\n  </svg>\n);\n\nexport default ViewQuilt;\n"
+    }
+  ]
+}

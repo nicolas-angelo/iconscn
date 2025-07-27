@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "vertical_align_top",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/vertical_align_top.svg",
+      "target": "components/ui/mdi/two-tone/vertical_align_top.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst VerticalAlignTop = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M4 3h16v2H4zm4 8h3v10h2V11h3l-4-4z\" />\n  </svg>\n);\n\nexport default VerticalAlignTop;\n"
+    }
+  ]
+}

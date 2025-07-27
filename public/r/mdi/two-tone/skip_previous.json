@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "skip_previous",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/skip_previous.svg",
+      "target": "components/ui/mdi/two-tone/skip_previous.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst SkipPrevious = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M16 14.14V9.86L12.97 12z\" opacity={0.3} />\n    <path d=\"M6 6h2v12H6zm12 12V6l-8.5 6 8.5 6zm-2-3.86L12.97 12 16 9.86v4.28z\" />\n  </svg>\n);\n\nexport default SkipPrevious;\n"
+    }
+  ]
+}
