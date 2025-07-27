@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "south_east",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/south_east.svg",
+      "target": "components/ui/mdi/sharp/south_east.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst SouthEast = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M19 9h-2v6.59L5.41 4 4 5.41 15.59 17H9v2h10V9z\" />\n  </svg>\n);\n\nexport default SouthEast;\n"
+    }
+  ]
+}

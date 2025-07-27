@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "keyboard_option_key",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/keyboard_option_key.svg",
+      "target": "components/ui/mdi/sharp/keyboard_option_key.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst KeyboardOptionKey = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M15 5h6v2h-6zM9 5H3v2h4.85l6.92 12H21v-2h-5.07z\" />\n  </svg>\n);\n\nexport default KeyboardOptionKey;\n"
+    }
+  ]
+}

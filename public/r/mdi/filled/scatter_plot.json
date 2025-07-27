@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "scatter_plot",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/scatter_plot.svg",
+      "target": "components/ui/mdi/filled/scatter_plot.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ScatterPlot = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <circle cx={7} cy={14} r={3} />\n    <circle cx={11} cy={6} r={3} />\n    <circle cx={16.6} cy={17.6} r={3} />\n  </svg>\n);\n\nexport default ScatterPlot;\n"
+    }
+  ]
+}

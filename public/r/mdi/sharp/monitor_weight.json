@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "monitor_weight",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/monitor_weight.svg",
+      "target": "components/ui/mdi/sharp/monitor_weight.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst MonitorWeight = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M21 3H3v18h18V3zm-6.8 8.2c-3.23 2.43-6.84-1.18-4.4-4.41 3.23-2.42 6.83 1.19 4.4 4.41z\" />\n    <path d=\"M10 8.5h1v1h-1zm1.5 0h1v1h-1zm1.5 0h1v1h-1z\" />\n  </svg>\n);\n\nexport default MonitorWeight;\n"
+    }
+  ]
+}

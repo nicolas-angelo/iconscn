@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "garage",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/garage.svg",
+      "target": "components/ui/mdi/sharp/garage.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Garage = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <circle cx={15} cy={13} r={1} />\n    <circle cx={9} cy={13} r={1} />\n    <path d=\"m8.33 7.5-.66 2h8.66l-.66-2z\" />\n    <path d=\"M22 2H2v20h20V2zm-3 16.5h-2v-2H7v2H5v-7.31L6.89 5.5H17.1l1.9 5.69v7.31z\" />\n  </svg>\n);\n\nexport default Garage;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "crop_5_4",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/crop_5_4.svg",
+      "target": "components/ui/mdi/sharp/crop_5_4.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Crop54 = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M21 4H3v16h18V4zm-2 14H5V6h14v12z\" />\n  </svg>\n);\n\nexport default Crop54;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "arrow_forward_ios",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/arrow_forward_ios.svg",
+      "target": "components/ui/mdi/filled/arrow_forward_ios.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ArrowForwardIos = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z\" />\n  </svg>\n);\n\nexport default ArrowForwardIos;\n"
+    }
+  ]
+}

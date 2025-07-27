@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "living",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/living.svg",
+      "target": "components/ui/mdi/sharp/living.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Living = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M15.5 12v2.5h-7V12h-2v4.5h11V12z\" />\n    <path d=\"M10 10v3h4v-3l2.25-.01V7.5h-8.5v2.49z\" />\n    <path d=\"M22 2H2v20h20V2zm-3 7.99V18H5v-8l1.25-.01V6h11.5v3.99H19z\" />\n  </svg>\n);\n\nexport default Living;\n"
+    }
+  ]
+}

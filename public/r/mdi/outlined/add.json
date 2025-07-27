@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "add",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/outlined/add.svg",
+      "target": "components/ui/mdi/outlined/add.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Add = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z\" />\n  </svg>\n);\n\nexport default Add;\n"
+    }
+  ]
+}

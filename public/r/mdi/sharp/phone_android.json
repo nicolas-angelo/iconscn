@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "phone_android",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/phone_android.svg",
+      "target": "components/ui/mdi/sharp/phone_android.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst PhoneAndroid = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M19 1H5v22h14V1zm-5 20h-4v-1h4v1zm3-3H7V4h10v14z\" />\n  </svg>\n);\n\nexport default PhoneAndroid;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "bedroom_parent",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/bedroom_parent.svg",
+      "target": "components/ui/mdi/sharp/bedroom_parent.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst BedroomParent = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M6.5 12h11v2h-11zm.75-3.5h4v2h-4zm5.5 0h4v2h-4z\" />\n    <path d=\"M22 2H2v20h20V2zm-3 15h-1.5v-1.5h-11V17H5v-5l.65-.55V7H11c.37 0 .72.12 1 .32.28-.2.63-.32 1-.32h5.35v4.45L19 12v5z\" />\n  </svg>\n);\n\nexport default BedroomParent;\n"
+    }
+  ]
+}

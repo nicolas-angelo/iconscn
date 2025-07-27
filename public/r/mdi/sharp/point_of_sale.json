@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "point_of_sale",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/point_of_sale.svg",
+      "target": "components/ui/mdi/sharp/point_of_sale.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst PointOfSale = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M19 2H5v6h14V2zm-2 4H7V4h10v2zm5 16H2v-3h20v3zM18 9H6l-4 9h20l-4-9zm-8 7H8v-1h2v1zm0-2H8v-1h2v1zm0-2H8v-1h2v1zm3 4h-2v-1h2v1zm0-2h-2v-1h2v1zm0-2h-2v-1h2v1zm3 4h-2v-1h2v1zm0-2h-2v-1h2v1zm0-2h-2v-1h2v1z\" />\n  </svg>\n);\n\nexport default PointOfSale;\n"
+    }
+  ]
+}

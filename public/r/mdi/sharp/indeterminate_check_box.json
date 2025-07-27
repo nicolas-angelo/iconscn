@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "indeterminate_check_box",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/indeterminate_check_box.svg",
+      "target": "components/ui/mdi/sharp/indeterminate_check_box.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst IndeterminateCheckBox = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M21 3H3v18h18V3zm-4 10H7v-2h10v2z\" />\n  </svg>\n);\n\nexport default IndeterminateCheckBox;\n"
+    }
+  ]
+}

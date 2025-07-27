@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "shower",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/shower.svg",
+      "target": "components/ui/mdi/filled/shower.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Shower = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <circle cx={8} cy={17} r={1} />\n    <circle cx={12} cy={17} r={1} />\n    <circle cx={16} cy={17} r={1} />\n    <path d=\"M13 5.08V3h-2v2.08C7.61 5.57 5 8.47 5 12v2h14v-2c0-3.53-2.61-6.43-6-6.92z\" />\n    <circle cx={8} cy={20} r={1} />\n    <circle cx={12} cy={20} r={1} />\n    <circle cx={16} cy={20} r={1} />\n  </svg>\n);\n\nexport default Shower;\n"
+    }
+  ]
+}

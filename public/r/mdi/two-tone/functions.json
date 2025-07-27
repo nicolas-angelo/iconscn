@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "functions",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/functions.svg",
+      "target": "components/ui/mdi/two-tone/functions.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Functions = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M18 17h-7l5-5-5-5h7V4H6v2l6.5 6L6 18v2h12z\" />\n  </svg>\n);\n\nexport default Functions;\n"
+    }
+  ]
+}

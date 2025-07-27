@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "turned_in",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/turned_in.svg",
+      "target": "components/ui/mdi/sharp/turned_in.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst TurnedIn = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M19 3H5v18l7-3 7 3V3z\" />\n  </svg>\n);\n\nexport default TurnedIn;\n"
+    }
+  ]
+}

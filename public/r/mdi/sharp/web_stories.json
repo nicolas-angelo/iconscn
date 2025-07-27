@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "web_stories",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/web_stories.svg",
+      "target": "components/ui/mdi/sharp/web_stories.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst WebStories = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M17 4h2v16h-2V4zM2 2v20h13V2H2zm19 16h1.5V6H21v12z\" />\n  </svg>\n);\n\nexport default WebStories;\n"
+    }
+  ]
+}

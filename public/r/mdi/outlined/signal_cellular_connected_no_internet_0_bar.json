@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "signal_cellular_connected_no_internet_0_bar",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/outlined/signal_cellular_connected_no_internet_0_bar.svg",
+      "target": "components/ui/mdi/outlined/signal_cellular_connected_no_internet_0_bar.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst SignalCellularConnectedNoInternet0Bar = (\n  props: SVGProps<SVGSVGElement>,\n) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M20 18h2v-8h-2v8zm0 4h2v-2h-2v2zm-2-2v2H2L22 2v6h-2V6.83L6.83 20H18z\" />\n  </svg>\n);\n\nexport default SignalCellularConnectedNoInternet0Bar;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "note",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/note.svg",
+      "target": "components/ui/mdi/sharp/note.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Note = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"m22 10-6-6H2v16h20V10zm-7-4.5 5.5 5.5H15V5.5z\" />\n  </svg>\n);\n\nexport default Note;\n"
+    }
+  ]
+}

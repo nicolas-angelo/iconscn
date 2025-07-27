@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "near_me",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/near_me.svg",
+      "target": "components/ui/mdi/sharp/near_me.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst NearMe = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M21 3 3 10.53v.98l6.84 2.65L12.48 21h.98L21 3z\" />\n  </svg>\n);\n\nexport default NearMe;\n"
+    }
+  ]
+}

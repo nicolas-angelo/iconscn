@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "hexagon",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/hexagon.svg",
+      "target": "components/ui/mdi/sharp/hexagon.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Hexagon = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M17.2 3H6.8l-5.2 9 5.2 9h10.4l5.2-9z\" />\n  </svg>\n);\n\nexport default Hexagon;\n"
+    }
+  ]
+}

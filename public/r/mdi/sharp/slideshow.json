@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "slideshow",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/slideshow.svg",
+      "target": "components/ui/mdi/sharp/slideshow.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Slideshow = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M10 8v8l5-4-5-4zm11-5H3v18h18V3zm-2 16H5V5h14v14z\" />\n  </svg>\n);\n\nexport default Slideshow;\n"
+    }
+  ]
+}

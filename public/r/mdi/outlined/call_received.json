@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "call_received",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/outlined/call_received.svg",
+      "target": "components/ui/mdi/outlined/call_received.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst CallReceived = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M20 5.41 18.59 4 7 15.59V9H5v10h10v-2H8.41L20 5.41z\" />\n  </svg>\n);\n\nexport default CallReceived;\n"
+    }
+  ]
+}

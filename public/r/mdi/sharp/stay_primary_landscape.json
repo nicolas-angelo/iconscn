@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "stay_primary_landscape",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/stay_primary_landscape.svg",
+      "target": "components/ui/mdi/sharp/stay_primary_landscape.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst StayPrimaryLandscape = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M1 19h22V5H1v14zM19 7v10H5V7h14z\" />\n  </svg>\n);\n\nexport default StayPrimaryLandscape;\n"
+    }
+  ]
+}

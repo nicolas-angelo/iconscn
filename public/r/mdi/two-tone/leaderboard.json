@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "leaderboard",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/leaderboard.svg",
+      "target": "components/ui/mdi/two-tone/leaderboard.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Leaderboard = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path\n      d=\"M10 5h4v14h-4V5zm-6 6h4v8H4v-8zm16 8h-4v-6h4v6z\"\n      opacity={0.3}\n    />\n    <path d=\"M16 11V3H8v6H2v12h20V11h-6zm-6-6h4v14h-4V5zm-6 6h4v8H4v-8zm16 8h-4v-6h4v6z\" />\n  </svg>\n);\n\nexport default Leaderboard;\n"
+    }
+  ]
+}

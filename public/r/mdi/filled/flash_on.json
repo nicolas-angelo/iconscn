@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "flash_on",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/flash_on.svg",
+      "target": "components/ui/mdi/filled/flash_on.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst FlashOn = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M7 2v11h3v9l7-12h-4l4-8z\" />\n  </svg>\n);\n\nexport default FlashOn;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "unfold_less_double",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/unfold_less_double.svg",
+      "target": "components/ui/mdi/sharp/unfold_less_double.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst UnfoldLessDouble = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M16.58 1.41 15.16 0l-3.17 3.17L8.82 0 7.41 1.41 11.99 6z\" />\n    <path d=\"M16.58 6.41 15.16 5l-3.17 3.17L8.82 5 7.41 6.41 11.99 11zM7.42 17.59 8.84 19l3.17-3.17L15.18 19l1.41-1.41L12.01 13z\" />\n    <path d=\"M7.42 22.59 8.84 24l3.17-3.17L15.18 24l1.41-1.41L12.01 18z\" />\n  </svg>\n);\n\nexport default UnfoldLessDouble;\n"
+    }
+  ]
+}

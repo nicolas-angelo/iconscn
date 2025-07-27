@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "vertical_shades",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/vertical_shades.svg",
+      "target": "components/ui/mdi/filled/vertical_shades.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst VerticalShades = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M20 19V3H4v16H2v2h20v-2h-2zm-10 0V5h4v14h-4z\" />\n  </svg>\n);\n\nexport default VerticalShades;\n"
+    }
+  ]
+}

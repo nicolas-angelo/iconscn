@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "report_gmailerrorred",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/report_gmailerrorred.svg",
+      "target": "components/ui/mdi/sharp/report_gmailerrorred.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ReportGmailerrorred = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM19 14.9 14.9 19H9.1L5 14.9V9.1L9.1 5h5.8L19 9.1v5.8z\" />\n    <circle cx={12} cy={16} r={1} />\n    <path d=\"M11 7h2v7h-2z\" />\n  </svg>\n);\n\nexport default ReportGmailerrorred;\n"
+    }
+  ]
+}

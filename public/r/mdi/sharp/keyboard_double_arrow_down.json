@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "keyboard_double_arrow_down",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/keyboard_double_arrow_down.svg",
+      "target": "components/ui/mdi/sharp/keyboard_double_arrow_down.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst KeyboardDoubleArrowDown = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M18 6.41 16.59 5 12 9.58 7.41 5 6 6.41l6 6z\" />\n    <path d=\"m18 13-1.41-1.41L12 16.17l-4.59-4.58L6 13l6 6z\" />\n  </svg>\n);\n\nexport default KeyboardDoubleArrowDown;\n"
+    }
+  ]
+}

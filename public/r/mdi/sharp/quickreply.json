@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "quickreply",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/quickreply.svg",
+      "target": "components/ui/mdi/sharp/quickreply.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Quickreply = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M22 2H2v20l4-4h9v-8h7z\" />\n    <path d=\"M22.5 16h-2.2l1.7-4h-5v6h2v5z\" />\n  </svg>\n);\n\nexport default Quickreply;\n"
+    }
+  ]
+}

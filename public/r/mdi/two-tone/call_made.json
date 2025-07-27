@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "call_made",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/call_made.svg",
+      "target": "components/ui/mdi/two-tone/call_made.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst CallMade = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M5.41 20 17 8.41V15h2V5H9v2h6.59L4 18.59z\" />\n  </svg>\n);\n\nexport default CallMade;\n"
+    }
+  ]
+}

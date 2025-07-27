@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "featured_play_list",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/featured_play_list.svg",
+      "target": "components/ui/mdi/sharp/featured_play_list.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst FeaturedPlayList = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M23 3H1v18h22V3zm-11 8H3V9h9v2zm0-4H3V5h9v2z\" />\n  </svg>\n);\n\nexport default FeaturedPlayList;\n"
+    }
+  ]
+}

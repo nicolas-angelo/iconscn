@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "near_me_disabled",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/near_me_disabled.svg",
+      "target": "components/ui/mdi/two-tone/near_me_disabled.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst NearMeDisabled = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path\n      d=\"m16.1 10.44 1.5-4.05-4.05 1.5 2.55 2.55zm-1.53 4.13L9.43 9.43l-2.71 1.01 4.89 1.95 1.95 4.89 1.01-2.71z\"\n      opacity={0.3}\n    />\n    <path d=\"M12 6.34 21 3l-3.34 9-1.56-1.56 1.5-4.05-4.05 1.5L12 6.34zm9.19 14.85-5.07-5.07L14.31 21H12.9l-2.83-7.07L3 11.1V9.69l4.88-1.81-5.07-5.07L4.22 1.4 22.6 19.78l-1.41 1.41zm-6.62-6.62L9.43 9.43l-2.71 1.01 4.89 1.95 1.95 4.89 1.01-2.71z\" />\n  </svg>\n);\n\nexport default NearMeDisabled;\n"
+    }
+  ]
+}

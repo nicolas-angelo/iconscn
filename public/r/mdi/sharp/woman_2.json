@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "woman_2",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/woman_2.svg",
+      "target": "components/ui/mdi/sharp/woman_2.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst Woman2 = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M13.41 7h-2.82L7 16h3.5v6h3v-6H17z\" />\n    <circle cx={12} cy={4} r={2} />\n  </svg>\n);\n\nexport default Woman2;\n"
+    }
+  ]
+}

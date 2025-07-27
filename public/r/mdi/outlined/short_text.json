@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "short_text",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/outlined/short_text.svg",
+      "target": "components/ui/mdi/outlined/short_text.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ShortText = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M4 9h16v2H4V9zm0 4h10v2H4v-2z\" />\n  </svg>\n);\n\nexport default ShortText;\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "arrow_outward",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/outlined/arrow_outward.svg",
+      "target": "components/ui/mdi/outlined/arrow_outward.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ArrowOutward = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M6 6v2h8.59L5 17.59 6.41 19 16 9.41V18h2V6z\" />\n  </svg>\n);\n\nexport default ArrowOutward;\n"
+    }
+  ]
+}

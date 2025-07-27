@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "horizontal_rule",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/horizontal_rule.svg",
+      "target": "components/ui/mdi/filled/horizontal_rule.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst HorizontalRule = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path fillRule=\"evenodd\" d=\"M4 11h16v2H4z\" />\n  </svg>\n);\n\nexport default HorizontalRule;\n"
+    }
+  ]
+}

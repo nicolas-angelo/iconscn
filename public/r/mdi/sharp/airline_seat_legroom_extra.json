@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "airline_seat_legroom_extra",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/sharp/airline_seat_legroom_extra.svg",
+      "target": "components/ui/mdi/sharp/airline_seat_legroom_extra.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst AirlineSeatLegroomExtra = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M4 3H2v14h11v-2H4zm18.24 12.96-2.53 1.15-3.41-6.98A2.019 2.019 0 0 0 14.51 9H11V3H5v11h10l3.41 7 5.07-2.32-1.24-2.72z\" />\n  </svg>\n);\n\nexport default AirlineSeatLegroomExtra;\n"
+    }
+  ]
+}

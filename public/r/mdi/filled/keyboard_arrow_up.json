@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "keyboard_arrow_up",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/filled/keyboard_arrow_up.svg",
+      "target": "components/ui/mdi/filled/keyboard_arrow_up.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst KeyboardArrowUp = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z\" />\n  </svg>\n);\n\nexport default KeyboardArrowUp;\n"
+    }
+  ]
+}

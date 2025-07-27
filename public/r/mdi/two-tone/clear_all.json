@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "homepage": "https://faststack.ai/registry",
+  "name": "clear_all",
+  "type": "registry:ui",
+  "author": "Nicolas Angelo <nicolas@faststack.ai>",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "type": "registry:ui",
+      "path": "mdi/two-tone/clear_all.svg",
+      "target": "components/ui/mdi/two-tone/clear_all.tsx",
+      "content": "import type { SVGProps } from \"react\";\n\nconst ClearAll = (props: SVGProps<SVGSVGElement>) => (\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    viewBox=\"0 0 24 24\"\n    fill=\"currentColor\"\n    {...props}\n  >\n    <path d=\"M5 11h14v2H5zm-2 4h14v2H3zm4-8h14v2H7z\" />\n  </svg>\n);\n\nexport default ClearAll;\n"
+    }
+  ]
+}
