@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex h-dvh flex-col">
       <Header
         logo="/logo-dark.png"
-        repo="https://github.com/faststack-io/icons-registry"
+        repo="https://github.com/nicolas-angelo/iconscn"
         title="iconsCN"
       />
       <div className="flex flex-col flex-1 items-center pt-10 md:pt-0 md:justify-center p-3">
