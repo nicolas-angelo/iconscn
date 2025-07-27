@@ -23,6 +23,11 @@ import {
 import { cn } from '@/lib/utils'
 import { iconStyles, type IconStyle } from '@/types/mdi'
 
+const REGISTRY_URL =
+  process.env.NODE_ENV === 'production'
+    ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}/r/mdi`
+    : 'http://localhost:3000/r/mdi'
+
 const MultiIconSelect = dynamic(
   () =>
     import('@/components/multi-icon-select').then(
@@ -65,7 +70,7 @@ export function UrlBuilder() {
       return selected
         .map(
           tag =>
-            `${cmd} shadcn@latest add http://localhost:3000/r/mdi/${style}/${tag}.json`
+            `${cmd} shadcn@latest add ${REGISTRY_URL}/${style}/${tag}.json`
         )
         .join('\n')
     },
