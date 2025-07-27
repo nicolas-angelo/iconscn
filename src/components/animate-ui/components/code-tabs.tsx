@@ -52,17 +52,17 @@ function CodeTabs({
 
   const [highlightedCodes, setHighlightedCodes] = React.useState<Record<
     string,
-    CommandConfig
+    string
   > | null>(null)
 
-  const [selectedCode, setSelectedCode] = React.useState<string>(
+  const [selectedCommand, setSelectedCommand] = React.useState<string>(
     value ?? defaultValue ?? Object.keys(codes)[0] ?? ''
   )
 
   React.useEffect(() => {
     async function loadHighlightedCode() {
       try {
-        const newHighlightedCodes: Record<string, CommandConfig> = {}
+        const newHighlightedCodes: Record<string, string> = {}
 
         for (const [command, val] of Object.entries(codes)) {
           const highlighted = await codeToHtml(val.command, {
@@ -72,16 +72,13 @@ function CodeTabs({
             colorReplacements,
           })
 
-          newHighlightedCodes[command] = {
-            ...val,
-            command: highlighted,
-          }
+          newHighlightedCodes[command] = highlighted
         }
 
         setHighlightedCodes(newHighlightedCodes)
       } catch (error) {
         console.error('Error highlighting codes', error)
-        setHighlightedCodes(codes)
+        setHighlightedCodes(null)
       }
     }
     loadHighlightedCode()
@@ -96,10 +93,10 @@ function CodeTabs({
       data-slot="install-tabs"
       {...props}
       onValueChange={val => {
-        setSelectedCode(val)
+        setSelectedCommand(val)
         onValueChange?.(val)
       }}
-      value={selectedCode}
+      value={selectedCommand}
     >
       <TabsList
         activeClassName="rounded-none shadow-none bg-transparent after:content-[''] after:absolute after:inset-x-0 after:h-0.5 after:bottom-0 dark:after:bg-white after:bg-black after:rounded-t-full"
@@ -108,7 +105,7 @@ function CodeTabs({
       >
         <div className="flex h-full gap-x-3">
           {highlightedCodes &&
-            Object.entries(highlightedCodes).map(([code, val]) => (
+            Object.entries(codes).map(([code, val]) => (
               <TabsTrigger
                 className={cn(
                   'group/tabs px-0 text-muted-foreground data-[state=active]:text-current flex items-center gap-x-1.5',
@@ -126,25 +123,24 @@ function CodeTabs({
         {copyButton && highlightedCodes && (
           <CopyButton
             className="-me-2 text-muted-foreground hover:bg-black/5 dark:hover:bg-white/10"
-            content={highlightedCodes[selectedCode].command}
+            content={codes[selectedCommand].command}
             onCopy={onCopy}
-            // size="sm"
             variant="ghost"
           />
         )}
       </TabsList>
       <TabsContents data-slot="install-tabs-contents">
         {highlightedCodes &&
-          Object.entries(highlightedCodes).map(([code, val]) => (
+          Object.entries(highlightedCodes).map(([command, content]) => (
             <TabsContent
               className="flex flex-1 h-full items-center overflow-auto p-4 text-sm bg-[var(--pre-background)]"
               data-slot="install-tabs-content"
-              key={code}
-              value={code}
+              key={command}
+              value={command}
             >
               <div
                 className="[&>pre,_&_code]:!bg-transparent [&_code]:!text-[13px] [&>pre,_&_code]:border-none [&>pre,_&_code]:[background:transparent_!important] !font-mono"
-                dangerouslySetInnerHTML={{ __html: val.command }}
+                dangerouslySetInnerHTML={{ __html: content }}
               />
             </TabsContent>
           ))}

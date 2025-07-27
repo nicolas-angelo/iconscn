@@ -35,7 +35,6 @@ const baseCommands: Record<string, CommandConfig> = {
   npm: {
     command: 'npx',
     icon: SiNpm,
-    className: 'group-data-[state=active]/tabs:text-[#CC3534]',
   },
   pnpm: {
     command: 'pnpm dlx',
@@ -44,12 +43,10 @@ const baseCommands: Record<string, CommandConfig> = {
   yarn: {
     command: 'npx',
     icon: SiYarn,
-    className: 'group-data-[state=active]/tabs:text-[#2c8ebb]',
   },
   bun: {
     command: 'bunx --bun',
     icon: SiBun,
-    className: 'group-data-[state=active]/tabs:text-[#fbf0df]',
   },
 }
 
